@@ -1,33 +1,93 @@
-## 🚀 30 Days of Data Structures & Algorithms Challenge
+# 🚀 30 Days DSA Challenge (Java + Maven)
 
-This repository tracks my journey of solving DSA problems for 30 consecutive days to strengthen algorithmic thinking and coding skills.
+This repository documents my **30-day journey of solving Data Structures & Algorithms problems**, with a focus on writing **clean, structured, and testable code** rather than just brute-solving questions.
 
-Each day includes:
+---
 
-Carefully selected problem(s)
+## 📌 Challenge Description
 
-Clean and well-structured solution code
+The goal of this challenge is to:
 
-Explanation of the approach
+* Strengthen **problem-solving and algorithmic thinking**
+* Build consistency by solving problems daily
+* Practice writing **optimized and readable code**
+* Follow **industry-level practices** like project structuring and unit testing
 
-Time & space complexity analysis
+Instead of treating DSA as isolated scripts, this project treats solutions like a **real codebase**.
 
-## 📚 Topics Covered
+---
 
-• Arrays & Strings
+## 🧠 Approach
 
-• Recursion & Backtracking
+* Each problem is organized into structured packages
+* Focus on **optimal solutions** (HashMap, DP, etc.)
+* Important problems include **JUnit 5 test cases**
+* Built using a **Maven project structure**
 
-• Stack & Queue
+---
 
-• Linked Lists
+## 🛠 Tech Stack
 
-• Trees & Graphs
+* Java
+* Maven
+* JUnit 5
 
-• Dynamic Programming
+---
 
-The goal of this challenge is to build strong problem-solving skills useful for coding interviews and competitive programming.
+## 📁 Project Structure
 
-| Day | Topic | Problem | Status |
-|-----|-------|---------|--------|
-| Day 1 | Arrays | Two Sum | ✅ |
+```plaintext
+src/
+ ├── main/java      → Problem solutions
+ └── test/java      → Unit tests
+```
+
+---
+
+## 📚 Topics Covered (Ongoing)
+
+* Arrays & Strings
+* Recursion & Backtracking
+* Stack & Queue
+* Linked Lists
+* Trees & Graphs
+* Dynamic Programming
+
+---
+
+## 📈 Current Progress
+
+| Day   | Topic  | Problem | Approach       | Status |
+| ----- | ------ | ------- | -------------- | ------ |
+| Day 1 | Arrays | Two Sum | HashMap (O(n)) | ✅      |
+
+---
+
+## 🔍 Example
+
+### Two Sum
+
+* **Idea:** Use a HashMap to store previously seen elements
+* **Time Complexity:** O(n)
+* **Space Complexity:** O(n)
+* **Test Coverage:** Included using JUnit
+
+---
+
+## 🎯 Goal
+
+To go beyond solving problems and focus on:
+
+* Writing **clean and maintainable code**
+* Building **testable solutions**
+* Following **real-world development practices**
+
+---
+
+## 🚧 Upcoming
+
+* More problems with optimized approaches
+* Better test coverage for edge cases
+* Topic-wise organization (Arrays, DP, Graphs, etc.)
+
+---
