@@ -1,3 +1,11 @@
+/*
+The first approached I used was basic comparision method using array
+which was obviously an inefficient way of solvng this problem as it 
+changes the time complexity to O(n^2).
+So in order to optimize this solution, 
+I used a HashMap to store the elements and their indices, 
+which reduces the time complexity to O(n).    
+ */
 package com.example.Day_1;
 
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.Day_1;
 import org.junit.jupiter.api.Test;
 
 import com.example.Day_1.TwoSum;
