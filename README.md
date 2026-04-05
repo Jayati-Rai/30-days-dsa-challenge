@@ -60,6 +60,7 @@ src/
 | Day   | Topic  | Problem | Approach       | Status |
 | ----- | ------ | ------- | -------------- | ------ |
 | Day 1 | Arrays | Two Sum | HashMap (O(n)) | ✅      |
+| Day 2 | Arrays | Contains Duplicate | HashSet (O(n)) | ✅      |
 
 ---
 
