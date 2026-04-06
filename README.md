@@ -61,6 +61,7 @@ src/
 | ----- | ------ | ------- | -------------- | ------ |
 | Day 1 | Arrays | Two Sum | HashMap (O(n)) | ✅      |
 | Day 2 | Arrays | Contains Duplicate | HashSet (O(n)) | ✅      |
+| Day 3 | Arrays | Valid Anagram | Array (O(n)) | ✅      |
 
 ---
 
