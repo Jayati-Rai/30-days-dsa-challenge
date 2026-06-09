@@ -57,11 +57,111 @@ src/
 
 ## 📈 Current Progress
 
-| Day   | Topic  | Problem | Approach       | Status |
-| ----- | ------ | ------- | -------------- | ------ |
-| Day 1 | Arrays | Two Sum | HashMap (O(n)) | ✅      |
-| Day 2 | Arrays | Contains Duplicate | HashSet (O(n)) | ✅      |
-| Day 3 | Arrays | Valid Anagram | Array (O(n)) | ✅      |
+# 30 Days DSA Challenge 🚀
+
+## Progress Tracker
+
+| Day   | Topic                          | Pattern              | Problem                             | Status |
+| ----- | ------------------------------ | -------------------- | ----------------------------------- | ------ |
+| Day 1 | Hashing Basics                 | HashMap (Lookup)     | Two Sum                             | ✅      |
+|       |                                |                      | Contains Duplicate                  | ✅      |
+|       |                                |                      | Valid Anagram                       | ✅      |
+| Day 2 | Hashing (Frequency + Grouping) | Frequency Map        | Group Anagrams                      | ✅      |
+|       |                                |                      | Top K Frequent Elements             | ✅      |
+| Day 3 | Hashing + Prefix Thinking      | Prefix Sum + HashMap | Subarray Sum Equals K               | ✅      |
+|       |                                |                      | Product of Array Except Self        | ✅      |
+| Day 4 | Two Pointers Basics            | Left–Right Traversal | Valid Palindrome                    | ✅      |
+|       |                                |                      | Remove Duplicates from Sorted Array | ✅      |
+| Day 5 | Two Pointers Advanced          | Pair Optimization    | Container With Most Water           | ✅      |
+|       |                                |                      | 3Sum                                | ✅      |
+
+---
+
+## Patterns Learned
+
+### Day 1 — Hashing Basics
+
+**Pattern:** HashMap (Lookup)
+
+**Key Insight:**
+Use constant-time lookup to avoid nested loops and reduce complexity from O(n²) to O(n).
+
+---
+
+### Day 2 — Hashing (Frequency + Grouping)
+
+**Pattern:** Frequency Map
+
+**Key Insight:**
+Count occurrences and group elements efficiently using HashMaps.
+
+---
+
+### Day 3 — Hashing + Prefix Thinking
+
+**Pattern:** Prefix Sum + HashMap
+
+**Key Insight:**
+Store cumulative information to answer range and subarray questions efficiently.
+
+---
+
+### Day 4 — Two Pointers Basics
+
+**Pattern:** Left–Right Traversal
+
+**Key Insight:**
+Process sorted or symmetric data from both ends to reduce extra space and improve runtime.
+
+---
+
+### Day 5 — Two Pointers Advanced
+
+**Pattern:** Pair Optimization
+
+**Key Insight:**
+Use pointer movement strategically to eliminate unnecessary combinations and brute force checks.
+
+---
+
+## Statistics
+
+* Days Completed: **5 / 30**
+* Problems Solved: **11**
+* Patterns Learned:
+
+  * HashMap Lookup
+  * Frequency Counting
+  * Grouping
+  * Prefix Sum
+  * Two Pointers
+  * Pair Optimization
+
+## Goal
+
+Complete 30 days of DSA while focusing on:
+
+* Pattern Recognition
+* Problem-Solving Frameworks
+* Interview Preparation
+* Consistent Daily Practice
+
+
+## Progress
+
+- Days Completed: **2 / 30**
+- Problems Solved: **11**
+- Topics Covered:
+  - Arrays
+  - Hashing
+  - Two Pointers
+  - Binary Search
+  - Dynamic Programming (Basics)
+
+### Legend
+- ✅ Completed
+- 🔄 In Progress
+- ⏳ Pending
 
 ---
 
