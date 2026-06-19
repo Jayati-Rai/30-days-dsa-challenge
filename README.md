@@ -77,7 +77,9 @@ src/
 | Day 6 | Mixed Practice         | Solved problems     | Solve without looking           | ✅      |
 | Day 7 |Revision                  |                      |                                 | ✅      |
 | Day 8 | Sliding Window Basics  | Fixed Window    | Maximum Sum Subarray of Size K           | ✅      |
-|       |                                |                      | Longest Substring without repeating characters                                | ✅      |
+|       |                                |                      | Longest Substring without repeating characters  
+| Day 9 | Sliding Window Advance  | Variable Window    | Minimum Window Substring           | ✅      |
+|       |                                |                      | Permutation in String    | 🔄      |
 ---
 
 ## Patterns Learned
@@ -147,25 +149,21 @@ Revisit previously solved problems and rebuild solutions without looking at note
 
 ### Day 8 — Sliding Window Basics
 
-**Pattern:** Fixed Window + Variable Window
+**Pattern:** Fixed Window 
 
 **Key Insight:**
 Maintain a window of elements and update it incrementally as it moves through the array or string. Instead of recomputing results for every possible range, reuse previous work to reduce time complexity from O(n²) to O(n) in many cases.
 
 ---
 
-## Statistics
+### Day 9 — Sliding Window Advanced
 
-* Days Completed: **5 / 30**
-* Problems Solved: **11**
-* Patterns Learned:
+**Pattern:** Dynamic Sliding Window
 
-  * HashMap Lookup
-  * Frequency Counting
-  * Grouping
-  * Prefix Sum
-  * Two Pointers
-  * Pair Optimization
+**Key Insight:**
+Expand the window until all required characters are included, then shrink it as much as possible while maintaining validity. This approach efficiently finds the smallest valid substring without checking every possible window.
+
+---
 
 ## Goal
 
@@ -179,8 +177,8 @@ Complete 30 days of DSA while focusing on:
 
 ## Progress
 
-- Days Completed: **2 / 30**
-- Problems Solved: **11**
+- Days Completed: **8 / 30**
+- Problems Solved: **14**
 - Topics Covered:
   - Arrays
   - Hashing
