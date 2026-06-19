@@ -74,7 +74,10 @@ src/
 |       |                                |                      | Remove Duplicates from Sorted Array | ✅      |
 | Day 5 | Two Pointers Advanced          | Pair Optimization    | Container With Most Water           | ✅      |
 |       |                                |                      | 3Sum                                | ✅      |
-
+| Day 6 | Mixed Practice         | Solved problems     | Solve without looking           | ✅      |
+| Day 7 |Revision                  |                      |                                 | ✅      |
+| Day 8 | Sliding Window Basics  | Fixed Window    | Maximum Sum Subarray of Size K           | ✅      |
+|       |                                |                      | Longest Substring without repeating characters                                | ✅      |
 ---
 
 ## Patterns Learned
@@ -121,6 +124,33 @@ Process sorted or symmetric data from both ends to reduce extra space and improv
 
 **Key Insight:**
 Use pointer movement strategically to eliminate unnecessary combinations and brute force checks.
+
+---
+
+### Day 6 — Mixed Practice
+
+**Pattern:** Pattern Recognition
+
+**Key Insight:**
+Focus on identifying the underlying pattern of a problem before thinking about code. The goal is to connect new problems with previously learned techniques such as HashMaps, Prefix Sums, and Two Pointers.
+
+---
+
+### Day 7 — Revision
+
+**Pattern:** Active Recall
+
+**Key Insight:**
+Revisit previously solved problems and rebuild solutions without looking at notes or code. True understanding is demonstrated by being able to derive the approach and explain the reasoning independently.
+
+---
+
+### Day 8 — Sliding Window Basics
+
+**Pattern:** Fixed Window + Variable Window
+
+**Key Insight:**
+Maintain a window of elements and update it incrementally as it moves through the array or string. Instead of recomputing results for every possible range, reuse previous work to reduce time complexity from O(n²) to O(n) in many cases.
 
 ---
 
