@@ -82,6 +82,8 @@ src/
 |       |                                |                      | Permutation in String    | ✅   |
 | Day 10 | Stack basics  | LIFO    | Valid Parentheses           | ✅      |
 |       |                                |                      | Min Stack    | ✅   |
+| Day 11 | Monotonic Stack  | Next greater/smaller    | Next Greater Element Parentheses           | ✅      |
+|       |                                |                      | Daily Temperatures    | ✅   |
 ---
 
 ## Patterns Learned
@@ -176,6 +178,18 @@ Use a stack when the most recently processed element must be accessed first. Sta
 
 - **Valid Parentheses:** Push opening brackets and validate each closing bracket against the most recent unmatched opening bracket.
 - **Min Stack:** Use an auxiliary stack to track the minimum value at each state, allowing retrieval of the minimum element in O(1) time.
+
+---
+
+### Day 11 — Monotonic Stack
+
+**Pattern:** Next Greater/Smaller Element
+
+**Key Insight:**
+Maintain a stack in monotonic order to efficiently find the next greater or smaller element for each position. Instead of comparing every element with all future elements, use the stack to keep track of unresolved candidates and process each element only once.
+
+- **Next Greater Element:** Use a decreasing stack to find the first greater element on the right.
+- **Daily Temperatures:** Store indices in a decreasing stack and resolve waiting days when a warmer temperature is encountered.
 
 ---
 
