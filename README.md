@@ -79,7 +79,9 @@ src/
 | Day 8 | Sliding Window Basics  | Fixed Window    | Maximum Sum Subarray of Size K           | ✅      |
 |       |                                |                      | Longest Substring without repeating characters  
 | Day 9 | Sliding Window Advance  | Variable Window    | Minimum Window Substring           | ✅      |
-|       |                                |                      | Permutation in String    | 🔄      |
+|       |                                |                      | Permutation in String    | ✅   |
+| Day 10 | Stack basics  | LIFO    | Valid Parentheses           | ✅      |
+|       |                                |                      | Min Stack    | ✅   |
 ---
 
 ## Patterns Learned
@@ -162,6 +164,18 @@ Maintain a window of elements and update it incrementally as it moves through th
 
 **Key Insight:**
 Expand the window until all required characters are included, then shrink it as much as possible while maintaining validity. This approach efficiently finds the smallest valid substring without checking every possible window.
+
+---
+
+### Day 10 — Stack Basics
+
+**Pattern:** LIFO (Last In, First Out)
+
+**Key Insight:**
+Use a stack when the most recently processed element must be accessed first. Stacks are particularly useful for matching pairs, maintaining order dependencies, and tracking state during traversal.
+
+- **Valid Parentheses:** Push opening brackets and validate each closing bracket against the most recent unmatched opening bracket.
+- **Min Stack:** Use an auxiliary stack to track the minimum value at each state, allowing retrieval of the minimum element in O(1) time.
 
 ---
 
